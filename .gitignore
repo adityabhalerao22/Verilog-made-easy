@@ -1,0 +1,172 @@
+# Verilog/SystemVerilog Gitignore
+
+# Simulation files
+*.vcd
+*.shm
+*.trn
+*.dsn
+*.log
+*.wdb
+*.vpd
+*.out
+*.fst
+*.ghw
+
+# Compiled simulation files
+simv*
+csrc/
+*.daidir/
+work/
+transcript
+vsim.wlf
+*.vstf
+
+# ModelSim/QuestaSim
+*.mpf
+*.mti
+modelsim.ini
+transcript
+work/
+*.wlf
+*.vstf
+*.ucdb
+vish_stacktrace.vstf
+
+# Vivado
+*.jou
+*.log
+*.str
+*.xpr
+*.cache/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.runs/
+.Xil/
+*.bit
+*.bin
+*.ltx
+vivado*
+*.backup.*
+
+# Quartus
+*.qpf
+*.qsf
+*.qws
+*.quartus.rpt
+*.map.rpt
+*.fit.rpt
+*.pin
+*.sof
+*.pof
+*.jdi
+*.rpt
+*.smsg
+*.summary
+db/
+incremental_db/
+output_files/
+*.qip
+*.bsf
+*.cmp
+*.done
+*.eqn
+*.hex
+*.html
+*.jdi
+*.jpg
+*.mif
+*.pin
+*.pof
+*.ptf.*
+*.qip
+*.qws
+*.sof
+*.sopc_builder
+*.summary
+*.smsg
+*.tcl
+*.txt  # Be careful with this - might want to be more specific
+
+# Synplify
+*.prj
+*.lso
+*.xst
+*.ngc
+*.bld
+*.ngd
+*.pcf
+*.bgn
+*.drc
+*.ncd
+*.pad
+*.par
+*.twr
+*.twx
+*.unroutes
+*.xpi
+*.mrp
+*.nc1
+*.ngm
+*.prm
+
+# FPGA vendor tools
+*.xise
+*.ise
+*.gise
+*.xmp
+
+# Temporary files
+*~
+*.swp
+*.swo
+*.tmp
+*.temp
+*.bak
+*.orig
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+*.sublime-*
+.vscode/
+*.code-workspace
+.idea/
+
+# Build directories
+build/
+dist/
+bin/
+obj/
+
+# Waveform viewers
+*.vcd
+*.fst
+*.ghw
+*.lxt
+*.lxt2
+*.vzt
+*.gtkw
+
+# Coverage files
+*.ucdb
+cov_work/
+
+# Documentation builds (if using generators)
+docs/_build/
+docs/.doctrees/
+
+# Python (if using any Python scripts)
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Node modules (if using any web-based tools)
+node_modules/
